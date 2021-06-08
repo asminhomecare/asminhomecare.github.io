@@ -77,6 +77,19 @@ p {
   max-height:30px;
 }
 
+@media screen and (max-width: 768px) {
+  .tns-slider img{
+    max-height: 200px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .brand-logo{
+    font-size: 10px;
+  }
+}
+
+
 .dark-version-logo, .dark-shape {
   display: none;
 }
